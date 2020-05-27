@@ -67,3 +67,20 @@ th, td {
   color: grey;
   text-align: center;
 }
+
+.btn-secondary {
+  background-color: lightgrey;
+}
+
+.my-col {
+  /*border: 1px solid green;*/
+  background-color: lightgrey;
+}
+
+.my-row_4 {
+  height: auto;
+  padding: 10px;
+  background-color: lightgrey;
+  font-size: 10pt;
+  font-weight: bold;
+}
