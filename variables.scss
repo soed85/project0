@@ -24,9 +24,9 @@ div {
     font-weight: bold;
   }
   
-  .my-row_5 {
+.my-row_5 {
     @extend %message;
     background-color: $bgcolor;
     height: 200px;
     text-align: justify;
-  }
+}
