@@ -1,10 +1,32 @@
 $bgcolor: lightgrey;
 
-.my-row_5 {
-    /*border: 1px solid blue;*/
-    height: 200px;
-    padding: 10px;
+.my-col, .btn-secondary {
     background-color: $bgcolor;
+  }
+
+div {
+    div {
+        p {
+            font-style: italic;
+        }
+    }
+}
+
+%message {
+    padding: 10px;
     font-size: 10pt;
+}
+
+.my-row_4 {
+    @extend %message;
+    background-color: $bgcolor;
+    height: auto;
+    font-weight: bold;
+  }
+  
+  .my-row_5 {
+    @extend %message;
+    background-color: $bgcolor;
+    height: 200px;
     text-align: justify;
   }
