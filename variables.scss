@@ -8,3 +8,20 @@ $bgcolor: lightgrey;
     font-size: 10pt;
     text-align: justify;
   }
+
+  .btn-secondary {
+    background-color: $bgcolor;
+  }
+
+  .my-col {
+    /*border: 1px solid green;*/
+    background-color: $bgcolor;
+  }
+
+  .my-row_4 {
+    height: auto;
+    padding: 10px;
+    background-color: $bgcolor;
+    font-size: 10pt;
+    font-weight: bold;
+  }

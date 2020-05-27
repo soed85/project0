@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-color: lightgrey;*/
   background-image: url("background_header.png");
   font-variant: small-caps;
 }
@@ -22,28 +21,6 @@
 .my-row_3 {
   height: 10px;
   background: linear-gradient(70deg, white, darkgreen);
-}
-
-.my-row_4 {
-  height: auto;
-  padding: 10px;
-  background-color: lightgrey;
-  font-size: 10pt;
-  font-weight: bold;
-}
-
-/*.my-row_5 {
-  border: 1px solid blue;
-  height: 200px;
-  padding: 10px;
-  background-color: lightgrey;
-  font-size: 10pt;
-  text-align: justify;
-}*/
-
-.my-col {
-  /*border: 1px solid green;*/
-  background-color: lightgrey;
 }
 
 @media (min-width: 1000px) {
@@ -74,10 +51,6 @@
 .btn-primary:hover {
   background-color: black;
   border-color: black;
-}
-
-.btn-secondary {
-  background-color: lightgrey;
 }
 
 #table_additionalinformation {
