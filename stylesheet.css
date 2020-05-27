@@ -10,7 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
+  background-image: url("background_header.png");
   font-variant: small-caps;
 }
 
@@ -77,4 +78,19 @@
 
 .btn-secondary {
   background-color: lightgrey;
+}
+
+#table_additionalinformation {
+  width: 100%;
+}
+
+th, td {
+  border: 0.5px solid black;
+  padding: 2px 2px 0px 5px;
+}
+
+#footer {
+  font-size: 7pt;
+  color: grey;
+  text-align: center;
 }

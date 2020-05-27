@@ -1,56 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Webpage</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-
-        <div class="container my-container">
-            <div class="row my-row_2"></div>
-            <div class="row my-row_1">
-              <div class="col-md-2 col-sm-6 my-col text-center">
-                Github
-              </div>
-              <div class="col-md-10 col-sm-6 my-col text-right">
-                  <button type="button" class="btn btn-primary btn-sm"><a href="index.html" style="color: white">Home</a></button>
-                  <button type="button" class="btn btn-primary btn-sm"><a href="github.html" style="color: white">Github</a></button>
-                  <button type="button" class="btn btn-primary btn-sm"><a href="html.html" style="color: white">Html</a></button>
-              </div>
-            </div>
-            <div class="row my-row_2"></div>
-            <div class="row my-row_3"></div>
-            <div class="row my-row_2"></div>
-            <div class="row my-row_4">
-                <div class="col my-col">
-                  How to create a new repository locally and push it to Github!
-                </div>
-            </div>
-            <div class="row my-row_5">
-                <div class="col my-col">
-                  Mac: Open the terminal and go to the folder where your files are stored. Execute 'git init'. Go to Github.com and create a new repository. Copy link and execute this link with following command in the terminal 'git add remote origin <i>link</i>'. Add and commit relevant files. Execute 'git push'.
-                </div>
-                <div class="col my-col">
-                  Placeholder for additional information/pictures!
-                </div>
-            </div>
-            <div class="row my-row_2"></div>
-            <div class="row my-row_4">
-              <div class="col my-col">
-                Second!
-              </div>
-            </div>
-            <div class="row my-row_5">
-              <div class="col my-col">
-                Row 3 Column 1
-              </div>
-              <div class="col my-col">
-                Row 3 Column 2
-              </div>
-          </div>
+  <head>
+    <title>My Webpage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  
+  <body>
+    <div class="container my-container">
+      <div class="row my-row_2"></div>
+      <div class="row my-row_1">
+        <div class="col-md-2 col-sm-6 text-left">Github</div>
+        <div class="col-md-10 col-sm-6 text-right">
+          <button type="button" class="btn btn-primary btn-sm"><a href="index.html" style="color: white">Home</a></button>
+          <button type="button" class="btn btn-primary btn-sm"><a href="github.html" style="color: white">Github</a></button>
+          <!-- <button type="button" class="btn btn-primary btn-sm"><a href="html.html" style="color: white">Html</a></button> -->
         </div>
-    </body>
+      </div>
+      <div class="row my-row_2"></div>
+      <div class="row my-row_3"></div>
+      <div class="row my-row_2"></div>
+      <div class="row my-row_4">
+        <div class="col my-col">How to create a new repository locally and push it to Github!</div>
+      </div>
+      <div class="row my-row_5">
+        <div class="col my-col">Mac: Open the terminal and go to the folder where your files are stored. Execute 'git init'. Go to Github.com and create a new repository. Copy link and execute this link with following command in the terminal 'git add remote origin <i>link</i>'. Add and commit relevant files. Execute 'git push'.</div>
+        <div class="col my-col">
+          <table id="table_additionalinformation">
+            <th>Terminal</th>
+            <th>Description</th>
+              <tr>
+                <td>git init</td>
+                <td>Desc. 1</td>
+              </tr>
+              <tr>
+                <td>git add remote origin</td>
+                <td>Desc. 2</td>
+              </tr>
+              <tr>
+                <td>git add</td>
+                <td>Desc. 3</td>
+              </tr>
+              <tr>
+                <td>git commit</td>
+                <td>Desc. 4</td>
+              </tr>
+              <tr>
+                <td>git push</td>
+                <td>Desc. 5</td>
+              </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row my-row_2"></div>
+      <div class="row my-row_4">
+        <div class="col my-col">Second!</div>
+      </div>
+      <div class="row my-row_5">
+        <div class="col my-col">Text box</div>
+        <div class="col my-col">Placeholder for additional information/pictures!</div>
+      </div>
+      <div class="row my-row_2"></div>
+      <p id="footer">&copy MK</p>
+    </div>        
+  </body>
 </html>
