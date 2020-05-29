@@ -1,0 +1,26 @@
+.my-col, .btn-secondary {
+  background-color: lightgrey;
+}
+
+div div p {
+  font-style: italic;
+}
+
+.my-row_5, .my-row_4 {
+  padding: 10px;
+  font-size: 10pt;
+}
+
+.my-row_4 {
+  background-color: lightgrey;
+  height: auto;
+  font-weight: bold;
+}
+
+.my-row_5 {
+  background-color: lightgrey;
+  height: 200px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=variables.css.map */
